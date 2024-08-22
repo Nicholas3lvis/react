@@ -1,0 +1,35 @@
+.result{
+    width: 95%;
+    margin: 0 auto 20px;    
+}
+.itemValue{
+    margin-bottom: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 20px;
+}
+.itemButton{
+    float: right;
+    padding: 6px 20px;
+    background-color: red;
+    border-radius: 9px;
+    border: none;
+    display: inline;
+    cursor: pointer;
+    box-shadow: 0px 2px 4px black;
+}   
+.line{
+    margin-top: 40px;
+}
+.completed{
+    text-decoration: line-through;
+    color: white;
+    padding: 10px;
+    background-color: brown;
+    border-radius: 10px;
+}
+.completed:hover{
+    color: black;
+    background-color: yellow;
+    border-radius: 10px;
+}
